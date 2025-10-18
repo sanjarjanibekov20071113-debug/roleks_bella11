@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой Онлайн Магазин</title>
+  <style>
+    /* Стили сайта */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color:red;
+      padding: 10px 0;
+    }
+
+    header nav ul {
+      list-style: none;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    header nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    header nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    section {
+      padding: 20px;
+      margin: 20px;
+      background-color: #fff;
+    }
+
+    #home {
+      text-align: center;
+    }
+
+    #products {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .product {
+      width: 30%;
+      background-color: #fafafa;
+      padding: 20px;
+      margin: 10px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+    }
+
+    .product button {
+      padding: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .product button:hover {
+      background-color: #0056b3;
+    }
+
+    #cart, #contact {
+      text-align: center;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Шапка сайта -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Главная</a></li>
+        <li><a href="#products">Товары</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Главная секция -->
+  <section id="home">
+    <h1>Добро пожаловать в  магазин бегимай !</h1>
+    <p>Лучшие товары по выгодным ценам только у бегимая .</p>
+  </section>
+
+  <!-- Секция с товарами -->
+  <section id="products">
+    
+ <div class="product">
+      <img src="https://cdn2.chrono24.com/cdn-cgi/image/f=auto,metadata=none,q=65/images/topmodels/2757-j3xcybl6khqm8rfodrxnm2gz-Main_2x.png" alt="Продукт 1">
+      <h3>Продукт 1</h3>
+      <p>Описание товара. Отличное качество и доступная цена.</p>
+      <p>Цена: 980,678 руб.</p>
+      <button>Контакты</button>
+    </div>
+
+    <div class="product">
+     <img src="https://cdn2.chrono24.com/cdn-cgi/image/f=auto,metadata=none,q=65/images/topmodels/2745-mp6als9t47ojfesjseurd1hi-Main_2x.png" alt="Продукт 2">
+      <h3>Продукт 2</h3>
+      <p>Описание товара. Отличное качество и доступная цена.</p>
+      <p>Цена: 467,987 руб.</p>
+      <button>Контакты</button>
+    </div>
+
+    <div class="product">
+      <img src="https://cdn2.chrono24.com/cdn-cgi/image/f=auto,metadata=none,q=65/images/topmodels/2856-1um6t0ja4ygg0cepuics78oy-Main_2x.png" alt="Продукт 3">
+      <h3>Продукт 3</h3>
+      <p>Описание товара. Отличное качество и доступная цена.</p>
+      <p>Цена: 345,987 руб.</p>
+      <button>Контакты</button>
+    </div>
+
+  <div class="product">
+      <img src="https://cdn2.chrono24.com/cdn-cgi/image/f=auto,metadata=none,q=65/images/topmodels/2894-uawpyshhm7pv7uaep8l2xpr8-Main_2x.png" alt="Продукт 4">
+      <h3>Продукт 4</h3>
+      <p>Описание товара. Отличное качество и доступная цена.</p>
+      <p>Цена: 689,098 руб.</p>
+      <button>Контакты</button>
+    </div>
+
+    <div class="product">
+      <img src="https://cdn2.chrono24.com/cdn-cgi/image/f=auto,metadata=none,q=65/images/topmodels/2834-0ptv2jvee65m0hikkw7q6rhc-Main_2x.png" alt="Продукт 5">
+      <h3>Продукт 5</h3>
+      <p>Описание товара. Отличное качество и доступная цена.</p>
+      <p>Цена: 456,890 руб.</p>
+      <button>Контакты</button>
+    </div>
+
+    <div class="product">
+      <img src="https://cdn2.chrono24.com/cdn-cgi/image/f=auto,metadata=none,q=65/images/topmodels/2886-ap4ox11b8mmszywfgll0tgzj-Main_2x.png" alt="Продукт 6">
+      <h3>Продукт 6</h3>
+      <p>Описание товара. Надежность и долговечность.</p>
+      <p>Цена: 230,456 руб.</p>
+      <button>Контакты</button>
+    </div>
+
+<div class="product">
+      <img src="https://cdn2.chrono24.com/cdn-cgi/image/f=auto,metadata=none,q=65/images/topmodels/2855-uen8ljrgwxnka66evn9zm1fn-Main_2x.png" alt="Продукт 7">
+      <h3>Продукт 7</h3>
+      <p>Описание товара. Надежность и долговечность.</p>
+      <p>Цена: 500,670 руб.</p>
+      <button>Контакты</button>
+    </div>
+
+
+
+       <div class="product">
+      <img src="https://cdn2.chrono24.com/cdn-cgi/image/f=auto,metadata=none,q=65/images/topmodels/2894-uawpyshhm7pv7uaep8l2xpr8-Main_2x.png  " alt="Продукт 8">
+      <h3>Продукт 8</h3>
+      <p>Описание товара. Инновационные технологии.</p>
+      <p>Цена: 876,300 руб.</p>
+      <button>Контакты</button>
+    </div>
+  </section>
+
+
+  <!-- Контактная информация -->
+  <section id="contact">
+    <h2>Контакты</h2>
+    <p>Свяжитесь с нами по следующим контактам:</p>
+    <ul>
+      <li>Email: bella.com</li>
+      <li>Телефон: +778082767</li>
+    </ul>
+  </section>
+
+  <!-- Подвал -->
+  <footer>
+    <p>&copy; 2025 ,бегимай  Онлайн Магазин. Все права защищены у беллы .</p>
+  </footer>
+
+</body>ы
+</html>
+
+
+
